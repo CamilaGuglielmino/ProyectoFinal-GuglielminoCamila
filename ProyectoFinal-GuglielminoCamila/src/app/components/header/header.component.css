@@ -1,7 +1,26 @@
 div{
-    background-color: #737373;
+    background: #737373;
 }
-app-social{
-    float: right;
-    margin: 25px;
+
+@media (min-width: 576px){
+    app-social{  
+        width: 20%;
+        border-radius: 100%;
+        float: right;
+        margin: 20px; 
+    }
+}
+@media (max-width: 575px){
+    app-social{
+        float: right;
+        margin: 20px;
+        width: 20px; 
+
+    }
+    app-logo-arg{
+        float: left;
+        margin: 10px;
+        width: 300px;
+        height: 70px;
+    }
 }
